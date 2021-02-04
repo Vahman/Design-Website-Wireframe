@@ -1,0 +1,20 @@
+HTML:
+Buttons
+Links to other pages
+
+
+CSS:
+Box around links when you hover
+Links have a different colour than the normal blue->purple
+Images are on the right 
+Text is on the left
+
+
+JS:
+Possibility:Small quiz/guessing game?
+
+
+Purpose:
+The purpose of this site is to show to people the importance of having proper infrastructre.
+
+

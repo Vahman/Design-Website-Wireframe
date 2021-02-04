@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+<title>Goal 9.5</title>
+<link rel = "stylesheet"
+    type = "text/css"
+    href = "style.css" />
+    <script>
+        function startTime() {
+          var today = new Date();
+          var h = today.getHours();
+          var m = today.getMinutes();
+          var s = today.getSeconds();
+          m = checkTime(m);
+          s = checkTime(s);
+          document.getElementById('txt').innerHTML =
+          h + ":" + m + ":" + s;
+          var t = setTimeout(startTime, 500);
+        }
+        function checkTime(i) {
+          if (i < 10) {i = "0" + i};  
+        }
+        </script>
+</head>
+<body>
+    <body onload="startTime()">
+
+        <div id="txt"></div>
+    <body>
+    <div class="menu">
+        <a href="home.html">Goal 9</a>
+    </br>
+    <a href="help.html">Help</a>
+</br>
+    <a href="extra_info.html">Extra Info</a>
+</br>
+<a href="mygoal.html">My Goal</a>
+    </div>
+    <div class="goal9x">
+        <a href="goal91.html">Goal 9.1</a>
+        </br>
+        <a href="goal92.html">Goal 9.2</a>
+        </br>
+        <a href="goal93.html">Goal 9.3</a>
+        </br>
+        <a href="goal94.html">Goal 9.4</a>
+        </br>
+        <a href="goal95.html">Goal 9.5</a>
+        </br>
+        <a href="goal9a.html">Goal 9.a</a>
+        </br>
+        <a href="goal9b.html">Goal 9.b</a>
+        </br>
+        <a href="goal9c.html">Goal 9.c</a>
+        </br>
+    </div>
+</body>

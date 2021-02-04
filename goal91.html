@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<head>
+    <title>Goal 9.1</title>
+    <link rel = "stylesheet"
+    type = "text/css"
+    href = "style.css" />
+    <script>
+        function startTime() {
+          var today = new Date();
+          var h = today.getHours();
+          var m = today.getMinutes();
+          var s = today.getSeconds();
+          m = checkTime(m);
+          s = checkTime(s);
+          document.getElementById('txt').innerHTML =
+          h + ":" + m + ":" + s;
+          var t = setTimeout(startTime, 500);
+        }
+        function checkTime(i) {
+          if (i < 10) {i = "0" + i};  
+          return i;
+        }
+        </script>
+</head>
+<body>
+    <body onload="startTime()">
+
+        <div id="txt"></div>
+    <body>
+    <div class="menu">
+        <a href="home.html">Goal 9</a>
+    </br>
+    <a href="help.html">Help</a>
+</br>
+    <a href="extra_info.html">Extra Info</a>
+</br>
+<a href="mygoal.html">My Goal</a>
+    </div>
+    <h1>What is Goal 9.1?</h1>
+    <p>The target of goal 9.1 is to develop infrastructure which is resilient,sustainable and inclusive.</p>
+    <p>In Goal 9.1 there are 2 indicators. These are Goal 9.1.1 which is focused on getting road access to people in rural areas.</p>
+    <p>Goal 9.1.2 is focused on air and rail travel and allowing anyone around the world to use them.</p>
+    <img src="91.png">
+    <div class="goal9x">
+        <a href="goal91.html">Goal 9.1</a>
+        </br>
+        <a href="goal92.html">Goal 9.2</a>
+        </br>
+        <a href="goal93.html">Goal 9.3</a>
+        </br>
+        <a href="goal94.html">Goal 9.4</a>
+        </br>
+        <a href="goal95.html">Goal 9.5</a>
+        </br>
+        <a href="goal9a.html">Goal 9.a</a>
+        </br>
+        <a href="goal9b.html">Goal 9.b</a>
+        </br>
+        <a href="goal9c.html">Goal 9.c</a>
+        </br>
+    </div>
+</body>
