@@ -37,11 +37,19 @@ a:link{
 
 .img1{
     display: flex;
-    justify-content: flex-end;
-
+    /* flex-wrap: wrap;
+    padding: 0 4px; */
+    /* justify-content: space-evenly; */
+    vertical-align: middle;
 }
 
 .text{
     display: flex;
     justify-content: flex end;
+}
+
+.video1{
+    border-radius: 25px;
+    display:flex;
+    justify-self: center;
 }
